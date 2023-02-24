@@ -1,4 +1,47 @@
  'use strict';
+
+
+
+
+// MAP  method yangi massiv qaytaradi eski massivni qiymatini o`zgartirib
+ 
+// const  car =['MErs', 'BmW', 'RolCE RoyCe']
+
+// const arr = car.map(item =>item.toLocaleLowerCase())
+// console.log(arr)
+
+// // Filter - method bu ham bizga yangi massiv qaytaradi filter qilib     
+
+// let car = ['mersedes benz', 'audi', 'bmw', 'rollce roycesd']
+// car = car.filter(item=>item.length < 5)
+// console.log(car)
+
+// SOME bilan EVERY - method   bular bizga boolen qiymat qaytaradi yani false hamda true 
+
+// const arr= [1, 'Jasur', true]
+// //console.log(arr.some(item=> item==='Jasur'))
+// console.log(arr.every(item=> typeof item=== 'Jasur'))
+
+
+// REDUCE  method bitta qandaydir qiymat qaytaradi
+
+// const arr = [3,32,15,4]
+
+// //             0      3
+// //             3       32
+// //             35      15
+// //             50       4
+// //             54       0
+
+// const res = arr.reduce((sum, current)=> sum+ current,20)
+// console.log(res)
+
+// const arr= ['bmw', 'merc', 'rollce royce', 'audi']
+
+// const res =arr.reduce((sum, current)=> `${sum}, ${current}`)
+// console.log(res)
+
+
  
 //  const request= (time)=>{
 //   return new Promise((resolve)=>{
